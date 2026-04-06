@@ -755,7 +755,7 @@
           <button class="copy-btn" onclick="copyCode(this)">Copy</button>
           <pre><code>{
   "mcpServers": {
-    "adintel": {
+    "AdIntel": {
       "command": "npx",
       "args": [
         "-y",
@@ -778,7 +778,7 @@
         <h4>Add the server</h4>
         <div class="code-block">
           <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-          <pre><code>claude mcp add --transport http adintel https://adintel-delta.vercel.app/</code></pre>
+          <pre><code>claude mcp add --transport http AdIntel https://adintel-delta.vercel.app/</code></pre>
         </div>
         <h4>Verify it was added</h4>
         <div class="code-block">
@@ -802,14 +802,14 @@
         <h4>Option 1 — CLI (quickest)</h4>
         <div class="code-block">
           <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-          <pre><code>codex mcp add adintel --url https://adintel-delta.vercel.app/</code></pre>
+          <pre><code>codex mcp add AdIntel --url https://adintel-delta.vercel.app/</code></pre>
         </div>
 
         <h4>Option 2 — Config file</h4>
         <p style="font-size:13px; color:var(--muted); margin-bottom:6px;">Edit (or create) <code>~/.codex/config.toml</code>:</p>
         <div class="code-block">
           <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-          <pre><code>[mcp_servers.adintel]
+          <pre><code>[mcp_servers.AdIntel]
 url = "https://adintel-delta.vercel.app/"</code></pre>
         </div>
         <p style="font-size:13px; color: var(--muted);"><strong>Restart Codex</strong> after either method to reload MCP server definitions.</p>
@@ -850,7 +850,7 @@ url = "https://adintel-delta.vercel.app/"</code></pre>
           <button class="copy-btn" onclick="copyCode(this)">Copy</button>
           <pre><code>{
   "mcpServers": {
-    "adintel": {
+    "AdIntel": {
       "serverUrl": "https://adintel-delta.vercel.app/"
     }
   }
@@ -861,7 +861,7 @@ url = "https://adintel-delta.vercel.app/"</code></pre>
           <button class="copy-btn" onclick="copyCode(this)">Copy</button>
           <pre><code>{
   "mcpServers": {
-    "adintel": {
+    "AdIntel": {
       "command": "npx",
       "args": [
         "-y",
@@ -877,7 +877,7 @@ url = "https://adintel-delta.vercel.app/"</code></pre>
         <ol class="ui-steps">
           <li>Save <code>mcp_config.json</code></li>
           <li>In the Agent panel, click the <strong>↺ refresh icon</strong>, or fully restart Antigravity</li>
-          <li>The <code>adintel</code> server should appear in the MCP server list with a green indicator</li>
+          <li>The <code>AdIntel</code> server should appear in the MCP server list with a green indicator</li>
         </ol>
 
         <h4>Step 4 — Verify</h4>
